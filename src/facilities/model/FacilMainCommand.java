@@ -41,7 +41,7 @@ public class FacilMainCommand implements CommandInterface {
 	
 	public void loadlist(HttpServletRequest request){
 		
-		String sql = "SELECT * FROM tbl_pg_memeber";
+		String sql = "SELECT * FROM tbl_pg_memeber WHERE m_id";
 		ArrayList list = new ArrayList();
 		
 		try {
